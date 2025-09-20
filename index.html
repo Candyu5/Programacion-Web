@@ -4,31 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Programacion Web </title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     
-    <!-- h1 es para titulo principal que aparece en la pagina -->
-    <h1>
-        Terraria
-    </h1>
+    <div class="titulo1">
+        <!-- h1 es para titulo principal que aparece en la pagina -->
+        <h1>
+            Terraria
+        </h1>
+    </div>
 
-    <!-- h3 es para subtitulos -->
-    <h3>
-        ¿Que es Terraria?
-    </h3>
+    <div class="subtitulo">
+        <!-- h3 es para subtitulos -->
+        <h3>
+            ¿Que es Terraria?
+        </h3>
+    </div>
 
-    <img src="img/portada.img" alt="no carga imagen">
+    <div class="ImagenPortada">
+        <img src="img/portada.img" alt="no carga imagen" title="terraria">
+    </div>
     
     <!-- hr es la linea que se muestra debajo de la foto -->
     <hr>
 
     <!-- p es para todo lo que es de parrafos y cada parrafo es ideal colocarlos por aparte cada uno en su misma etiqueta -->
-    <p>
+
+    <div class="parrafo1">
+        <p>
         <!-- b es para que salga en negritas todo lo que esta dentro de ella -->
         <!-- la i es para cursiva -->
         <!-- la u es para subrayar -->
         <b> Terraria es un videojuego de acción, aventura y de sandbox producido de forma independiente por el estudio Re-Logic. Se estima que el juego vendió alrededor de 50 000 copias el día del lanzamiento, con más de 17 000 jugadores en línea al mismo tiempo. En asociación con la productora 505 Games el juego fue lanzado para las plataformas Xbox 360, PlayStation 3 y PlayStation Vita, pero estas se dejaron de actualizar. Sus ventas totales se estiman alrededor de un millón de copias. El juego también fue lanzado para los sistemas Android e iOS alcanzando en estas plataformas 8,9 millones de copias descargadas.</b>
-    </p>
+        </p>
+    </div>
+
+    <div class="parrafo2">
+        <p>
+            Terraria es un videojuego de acción, aventura y de sandbox producido de forma independiente por el estudio Re-Logic.
+        </p>
+    </div>
 
     <img src="img/con dinosaurio.img" alt="" width="400" height="200">
 
@@ -82,6 +98,39 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3123.2265532391375!2d-85.765203724219!3d38.482413971083496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88697b520722e769%3A0xa6c80e1281a9b50b!2sUnited%20States%20Postal%20Service!5e0!3m2!1ses!2sco!4v1757771250193!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <!-- XAMPP Control Panel es una aplicacion para muchas cosas entre ellas verificar si mi pagina se puede montar a un servidor -->
+
+    <hr>
+
+    <label for="txtnombre"> nombre </label>
+    <input type="text" id="txtnombre" placeholder="escribe tu nombre" style="width: 200px; height: 35px;"> <br>
+
+    <label> elije tu npc favorito </label>
+    <select style="width:200px; height:40px; font-size: 20px; text-align: center; border: magenta 5px solid;">
+        <option selected="true">Party girl</option>
+        <option>guie</option>
+        <option>mercader</option>
+        <option>druida</option>
+        <option>zoologa</option>
+    </select><br>
+
+    <label for="ran"> que tanto te gusta </label> <br>
+    <input type="range"  id="ran" min="0" max="100" style="width: 300px;"> <br>
+
+    <label for="adj">Adjuntar la hoja de vida</label> <br>
+    <input type="file"  id="adj"> <br>
+    <input type="button" value="enviar" style="width:200px; height:30px">
+
+    <div class="marginejemplo">
+        <p>
+            He visto a mucha gente decir que Stardew Valley es recontra relajante y tranquilo, y que Terraria es más de acción, pero en general, ¿cuál es más disfrutable? Nunca he jugado ninguno, así que por eso pregunto cuál es mejor. Stardew Valley medio que parece aburrido, no sé. Pero, ¿Terraria en el móvil es bueno? He oído que los controles son re complicados. ¡Gracias!
+        </p>
+    </div>
+
+    <div class="paddingejemplo">
+        <p>
+            Depende de tu estado de ánimo, la verdad. Pero Terraria me aburrió más rápido. Empecé a jugar Stardew años antes que Terraria y todavía lo juego, pero Terraria no. Otro juego parecido que te podría gustar es Aground. Empieza un poco lento, pero se pone bastante interesante.
+        </p>
+    </div>
 
 </body>
 </html>

@@ -1,0 +1,43 @@
+body{
+    font-family: cursive;
+    font-size: 30px;
+    background-color: pink;
+}
+
+.titulo1{
+    color: black;
+    background-color: aquamarine;
+    border: blue 7px solid;
+}
+
+.ImagenPortada{
+    text-align: center;
+}
+
+.subtitulo{
+    color: red;
+    background-color: orange;
+}
+
+.parrafo1{
+    color: purple;
+    background-color: aquamarine;
+
+}
+
+.parrafo2{
+    color: darkgreen;
+    background-color: aquamarine;
+}
+
+/* margin es para editar la caja por fuera */
+.marginejemplo{
+    background-color: aqua;
+    margin: 50px;
+}
+
+/* padding es para editar la caja por dentro */
+.paddingejemplo{
+    background-color: aqua;
+    padding: 100px;
+}

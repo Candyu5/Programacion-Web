@@ -33,11 +33,17 @@ body{
 /* margin es para editar la caja por fuera */
 .marginejemplo{
     background-color: aqua;
-    margin: 50px;
+    margin-right: 25px;
+    padding: 5px;
 }
 
 /* padding es para editar la caja por dentro */
 .paddingejemplo{
     background-color: aqua;
-    padding: 100px;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.parrafos_juntos{
+    display: flex;
 }

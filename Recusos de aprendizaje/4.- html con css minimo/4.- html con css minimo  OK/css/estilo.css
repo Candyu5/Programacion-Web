@@ -1,0 +1,30 @@
+body{
+    background-color: powderblue; /*Color de fondo*/
+    color: blue;                /*Color de letra*/
+    font-family: Arial;             /*tipo de letra*/
+
+}
+.imagen{
+    text-align: center; /*centrado */
+    
+}
+
+.parrafo{
+    font-size: 18px; /* tamaño de letra*/
+}
+.mitabla{
+    margin: 0 auto; /*centrar la tabla*/
+}
+
+.contenedor{
+    display: flex; /*aplica flexbox para ubicar*/
+    
+    flex-wrap: wrap /*en una misma línea o pueden fluir en varias líneas*/;
+   justify-content: center; /*centra un contenido*/
+}
+
+.pie{ 
+    text-align: center; /* centrado */
+    border: 2px blue solid; /*bordes y propiedades */
+    
+}

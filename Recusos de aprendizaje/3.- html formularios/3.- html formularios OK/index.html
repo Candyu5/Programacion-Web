@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="icon" href="img/icono.png">
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <!--cuando hacemos clic en el label, se activa el componente que referencia en "for". En el ejemplo, al hacer clic en la palabra apellidos, se selecciona el input text  al que referencia.-->
+    
+        <form>
+            <label for="ciudad">Apellidos</label> <br>
+            <input type="text"  id="ciudad"  readonly value="Barranquilla"  style="width:300px;height:15px"/><br>
+            <label for="apellidos">Apellidos</label> <br>
+            <input type="text"  id="apellidos"  placeholder="Escriba los apellidos" style="width:300px;height:15px"/><br>
+            <label for="nombres">Nombres</label> <br>
+            <input type="text"  id="nombres" value="Bryan" maxlength="10" minlength="1" style="width:300px;height:15px"/><br>
+            <label for="edad">Edad</label> <br>
+            <input type="number" id="edad" min="1" max="50" style="width:150px;height:15px" /><br>
+            <label> Genero</label> <br>
+            <label for="masculino">M</label> 
+            <input type="radio" name="sexo" id="masculino" />
+            <label for="femenino">F</label> 
+            <input type="radio" name="sexo" id="femenino" /><br>
+            <label >Grado de educacion</label> <br>
+            <select style="width:150px;height:20px">
+                <option selected="true">Bachillerato</option>
+                <option>Tecnico</option>
+                <option>Tecnologo</option>
+                <option>Profesional</option>
+                <option>Magister</option>
+            </select><br>
+            <label for="nac">Fecha nacimiento</label> <br>
+            <input type="date"  id="nac" style="width:300px;height:20px"><br>
+            <label for="color">Color favorito</label> <br>
+            <input type="color"  id="color"> <br>
+            <label for="ran">Gustos por los video juegos</label> <br>
+            <input type="range"  id="ran" min="0" max="100" style="width:300px;height:15px"> <br>
+            <label for="adj">Adjuntar la hoja de vida</label> <br>
+            <input type="file"  id="adj"> <br> <br>
+            <input type="button" value="enviar" style="width:150px;height:25px">
+          </form>
+   
+</body>
+</html>
